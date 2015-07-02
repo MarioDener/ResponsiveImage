@@ -27,19 +27,22 @@ body {
 }
 .Container .Container__Notice header figure img {
   display: block;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   max-width: 100%;
   height: auto;
-  margin-top: -8em;
+  
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   .Container__Notice header figure img {
-    width: 100%;
-    margin-top: 0em !important;
+    max-width: 100%;
+    /*height: */
+    margin: 0 auto;
+    /*margin-top: 0px !important;*/
   }
 }
-@media screen and (min-width: 0px) and (max-width: 1280px) {
+
+@media screen and (min-width: 800px) and (max-width: 1280px) {
   .Container__Notice header figure img {
-    margin-top: 0em !important;
+    margin-top: -200px !important;
   }
 }
